@@ -1,6 +1,6 @@
 {
   "name": "is-css-property",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Determine if string is a valid CSS property",
   "main": "lib/index.js",
   "scripts": {
