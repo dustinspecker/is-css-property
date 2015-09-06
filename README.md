@@ -5,6 +5,8 @@
 
 > Determine if string is a valid CSS property
 
+*Uses [just-css-properties](https://github.com/blakeembrey/just-css-properties) for CSS properties list*
+
 ## Install
 ```
 npm install --save is-css-property
