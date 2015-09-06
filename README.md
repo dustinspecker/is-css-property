@@ -3,7 +3,7 @@
 
 [![Code Climate](https://codeclimate.com/github/dustinspecker/is-css-property/badges/gpa.svg)](https://codeclimate.com/github/dustinspecker/is-css-property) [![Dependencies](https://david-dm.org/dustinspecker/is-css-property.svg)](https://david-dm.org/dustinspecker/is-css-property/#info=dependencies&view=table) [![DevDependencies](https://david-dm.org/dustinspecker/is-css-property/dev-status.svg)](https://david-dm.org/dustinspecker/is-css-property/#info=devDependencies&view=table)
 
-> Determine if string is a valid CSS property
+> Determine if a string is a valid CSS property
 
 *Uses [just-css-properties](https://github.com/blakeembrey/just-css-properties) for CSS properties list*
 
