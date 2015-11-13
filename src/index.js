@@ -7,10 +7,10 @@ import cssProperties from 'just-css-properties';
  * @throw {TypeError} - if property is not a string
  * @return {Boolean} - property is a valid CSS property
  */
-export default function isCssProperty(property) {
+module.exports = function (property) {
   if (typeof property !== 'string') {
     throw new TypeError('Expected property to be a string');
   }
 
   return cssProperties.indexOf(property.toLowerCase()) !== -1;
-}
+};
