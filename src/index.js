@@ -1,5 +1,5 @@
-'use strict';
-import cssProperties from 'just-css-properties';
+'use strict'
+import cssProperties from 'just-css-properties'
 
 /**
  * Is property a valid CSS property?
@@ -9,8 +9,8 @@ import cssProperties from 'just-css-properties';
  */
 module.exports = function (property) {
   if (typeof property !== 'string') {
-    throw new TypeError('Expected property to be a string');
+    throw new TypeError('Expected property to be a string')
   }
 
-  return cssProperties.indexOf(property.toLowerCase()) !== -1;
-};
+  return cssProperties.indexOf(property.toLowerCase()) !== -1
+}
